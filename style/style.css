@@ -1,0 +1,204 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons,css");
+
+body {
+    margin: 0px;
+    /* Set up the colors */
+    background: #190E4F;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ----- HEADER - START ----- */
+
+header {
+    background: #B33C86;
+    padding: 8px;
+}
+
+header > a {
+    margin: 5px;
+    color: white;
+}
+
+/* ----- HEADER - END ----- */
+
+
+/* ----- NAVBAR - START ----- */
+
+nav {    
+    padding: 18px;
+    /* Flex */
+    display: flex;
+    align-items: center;
+    /* The "justify-content: space-between;" 
+    display the flex items with space between 
+    the lines */
+    justify-content: space-between;
+}
+
+nav > div > a {
+    float: left;
+    padding: 12px;
+    color: white;
+    font-size: 1.063em;
+}
+
+.nav-logo {    
+    border-radius: 100px;
+}
+
+.active {
+    color: #EA638C;
+}
+
+/* ----- NAVBAR - END ----- */
+
+
+/* ----- FULL PAGE IMAGE - START ----- */
+
+.FullPI {
+    /* Color and image bacground */
+    background-image: 
+        linear-gradient(#0201595E, #02015981), 
+        url("../img/full2.jpg");
+    /* Center the image */
+    background-position: center;
+    /* Do not repeat the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Height of the screen */
+    height: 85vh;
+}
+
+.container {
+    /* Center the elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > div {
+    text-align: center;
+}
+
+.link {
+    color: #EA638C;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    border: 2px solid #EA638C;
+    border-radius: 50px;
+}
+
+/* ----- FULL PAGE IMAGE - END ----- */
+
+
+/* ----- INFORMATION BAR - START ----- */
+
+.wrap {
+    /* Colors */
+    background-color: #FFF;
+    color: #000;
+    text-align: center;
+    padding-bottom: 0vh;
+}
+
+.about-me {
+    padding-top: 5vh;
+}
+
+.photo-profile {
+    border: #002A22 solid;
+    border-radius: 200px;
+}
+
+.banner {
+    /* AUTO GRID - Responsive */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    margin: 20px;
+}
+
+h2 {
+    color: #B33C86;
+    font-size: 1em;
+}
+
+.icon-container > div > p {
+    font-size: 0.875em;
+}
+
+/* ----- INFORMATION BAR - END ----- */
+
+
+/* ----- BLOG CARD - START ----- */
+
+.blog {
+    text-align: center;
+    margin: 20vh auto 20vh auto;
+}
+
+.blog > h1 {
+    color: #EA638C;
+    font-weight: 300;
+}
+
+.container-blog {
+    /* Center the elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card */
+.card-p {
+    background: #FFF;
+    color: #000;
+    margin: 20px;
+    width: 20vw;
+}
+
+.img-blog {
+    height: 30vh;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.img-blog1 {
+    background-image: url(../img/gambar-3.jpg);
+}
+
+.img-blog2 {
+    background-image: url(../img/gambar-2.jpg);
+}
+
+.img-blog3 {
+    background-image: url(../img/gambar-4.jpg);
+}
+
+.img-blog4 {
+    background-image: url(../img/gambar-5.jpg);
+}
+
+.card-txt {
+    margin: 20px 30px 20px 30px;
+    font-size: 0.875em;
+}
+
+button {
+    border: none;
+    background: #B33C86;
+    color: #FFF;
+    height: 10vh;
+}
+
+/* ----- BLOG CARD - END ----- */

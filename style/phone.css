@@ -1,0 +1,51 @@
+/* ----- HEADER - START ----- */
+
+@media screen and (max-width: 800px) {
+    nav {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav > div > a {
+        float: none;
+        display: block;
+    }
+}
+
+/* ----- HEADER - END ----- */
+
+
+/* ----- INFORMATION BAR - START ----- */
+
+@media screen and (max-width: 800px) {
+    .banner {
+        flex-direction: column;
+        padding-bottom: 5vh;
+    }
+}
+
+/* ----- INFORMATION BAR - END ----- */
+
+
+/* ----- PRODUCT CARD - START ----- */
+
+@media screen and (max-width: 1200px) {
+    .product {
+        text-align: center;
+        margin: 5vh auto 5vh auto;
+    }
+
+    button {
+        display: none;
+    }
+
+    .container-product {
+        flex-direction: column;
+    }
+    .card-p {
+        width: 90vw;
+    }
+}
+
+/* ----- PRODUCT CARD - END ----- */
