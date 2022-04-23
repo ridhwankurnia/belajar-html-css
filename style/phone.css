@@ -31,7 +31,7 @@
 /* ----- PRODUCT CARD - START ----- */
 
 @media screen and (max-width: 1200px) {
-    .product {
+    .blog {
         text-align: center;
         margin: 5vh auto 5vh auto;
     }
@@ -40,10 +40,10 @@
         display: none;
     }
 
-    .container-product {
+    .container-blog {
         flex-direction: column;
     }
-    .card-p {
+    .card-b {
         width: 90vw;
     }
 }

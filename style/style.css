@@ -65,7 +65,7 @@ nav > div > a {
     /* Color and image bacground */
     background-image: 
         linear-gradient(#0201595E, #02015981), 
-        url("../img/full2.jpg");
+        url("../img/gambar-full.jpg");
     /* Center the image */
     background-position: center;
     /* Do not repeat the image */
@@ -159,7 +159,7 @@ h2 {
 }
 
 /* Card */
-.card-p {
+.card-b {
     background: #FFF;
     color: #000;
     margin: 20px;
