@@ -82,8 +82,21 @@ nav > div > a {
     justify-content: center;
 }
 
-.container > div {
+.container > div {    
     text-align: center;
+}
+
+.time {
+    margin: 0px auto 30px auto;
+}
+
+#salam {
+    display: inline;
+    font-weight: 600;    
+}
+
+#clock {
+    display: inline;    
 }
 
 .link {
